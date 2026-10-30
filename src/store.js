@@ -5,6 +5,8 @@ class RoomStore {
     this.rooms = new Map();
     this.nextId = 1;
     seed.forEach((room) => this.create(room));
+    unusedMethod() {
+      var x = 1;
   }
 
   list(minCapacity) {
